@@ -18,7 +18,7 @@ export default function Eventos() {
 	const [eventos, setEventos] = useState([]);
 
 	const fetchEventos = () => {
-		fetch("localhost:3000/eventos")
+		fetch("http://localhost:3000/eventos")
 			.then((response) => response.json())
 			.then((response) => {
 				setEventos(response.data);
