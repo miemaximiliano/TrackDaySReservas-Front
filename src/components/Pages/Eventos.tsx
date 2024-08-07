@@ -18,7 +18,7 @@ export default function Eventos() {
 	const [eventos, setEventos] = useState([]);
 
 	const fetchEventos = () => {
-		fetch("https://track-day-s-reservas-back.vercel.app/eventos")
+		fetch("localhost:3000/eventos")
 			.then((response) => response.json())
 			.then((response) => {
 				setEventos(response.data);
