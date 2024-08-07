@@ -1,0 +1,53 @@
+.renglonReserva {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.renglonReservaNombre,
+.renglonReservaFecha,
+.renglonReservaSede,
+.renglonReservaZona,
+.renglonReservasCantidad {
+	display: flex;
+	align-items: center;
+	padding: 0.25rem;
+	border: 0.0625rem solid #ffffff;
+	border-collapse: collapse;
+	background-color: #3d3838;
+}
+
+.renglonReservaNombre {
+	min-width: 13rem;
+}
+
+.renglonReservaFecha {
+	min-width: 6rem;
+	justify-content: center;
+}
+
+.renglonReservaSede {
+	min-width: 6.313rem;
+	justify-content: center;
+}
+
+.renglonReservaZona {
+	min-width: 7rem;
+	justify-content: center;
+}
+
+.renglonReservasCantidad {
+	min-width: 7rem;
+	justify-content: center;
+}
+
+.botonRenglonReserva {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 0.25rem;
+	margin-left: 0.25rem;
+}

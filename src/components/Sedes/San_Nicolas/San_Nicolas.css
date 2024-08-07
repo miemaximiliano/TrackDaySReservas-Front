@@ -1,0 +1,18 @@
+.Sede1 {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Sede1 h2,h3{
+    color: #c39300 ;
+}
+p{
+    width: 40%;
+    text-align: justify;
+}
+img{
+    width: 40%;
+}

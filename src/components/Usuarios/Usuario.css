@@ -1,0 +1,64 @@
+.registro,
+.LogIn {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formRegistro,
+.formLogIn {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 1.5rem;
+}
+
+.label {
+    width: 20rem;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0.25rem;
+
+}
+
+.campo {
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    width: 20rem;
+
+    display: flex;
+    margin-top: 0.25rem;
+}
+
+.btnRegistrarse,
+.btnLogIn {
+    width: auto;
+    padding: 0.3rem;
+    margin-bottom: 10px;
+    background-color: #c39300;
+}
+
+.contenidoUsuario {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.LogIn h2 {
+    border-bottom: 2px solid #c39300;
+}
+
+.registro h2 {
+    border-bottom: 2px solid #c39300;
+}

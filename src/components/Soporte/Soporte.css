@@ -1,0 +1,31 @@
+.Soporte {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Soporte h2{
+    border-bottom: 2px solid #c39300;
+    text-align: center;
+}
+
+.Renglon{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px; 
+}
+.Renglon input{
+    width:100%;
+}
+.Renglon textarea{
+    width: 100%;
+}
+
+.btnMandar {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #c39300;
+}

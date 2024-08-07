@@ -1,0 +1,141 @@
+/* .renglon {
+	display: flex;
+	flex-direction: column;
+	border-collapse: collapse;
+} */
+.pagTracks,
+.pagReservas {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.TracksTitulo,
+.reservasTitulo {
+	width: 20rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+
+.headerRenglon {
+	display: flex;
+	flex-direction: row;
+	/* margin-right: 6.431rem; */
+	font-weight: 700;
+
+}
+
+.btnAgregar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc400; /* Utilizando el color #ffc400 */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 1rem; /* Tamaño de la fuente */
+    font-weight: bold; /* Fuente en negrita */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el fondo y la sombra */
+}
+
+.btnAgregar:hover {
+    background-color: #e0a800; /* Color al pasar el cursor */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada al pasar el cursor */
+}
+
+.btnAgregar:active {
+    background-color: #c49000; /* Color al hacer clic */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra más pequeña al hacer clic */
+}
+
+
+.headerNombre {
+	min-width: 13.125rem;
+	padding: 0.25rem;
+}
+
+.headerNumero {
+	min-width: 10.125rem;
+	padding: 0.25rem;
+}
+
+.headerFecha {
+	min-width: 6.125rem;
+	padding: 0.25rem;
+}
+
+.headerHora {
+	min-width: 3.125rem;
+	padding: 0.25rem;
+}
+
+.headerSede {
+	min-width: 6.438rem;
+	padding: 0.25rem;
+}
+
+.headerReservas {
+	min-width: 7.125rem;
+	padding: 0.25rem;
+}
+
+.headerMaxEntradas {
+	min-width: 7.125rem;
+	padding: 0.25rem;
+}
+
+/* .headerDescripcion {
+	min-width: 25.125rem;
+	padding: 0.25rem;
+} */
+
+.headerAcciones {
+	min-width: 6.431rem;
+	padding: 0.25rem 0rem;
+	margin-left: 0.25rem;
+}
+
+.headerReservasNombre {
+	min-width: 13.125rem;
+}
+
+.headerReservasFecha {
+	min-width: 6.125rem;
+	justify-content: center;
+}
+
+.headerReservasSede {
+	min-width: 6.313rem;
+	justify-content: center;
+}
+
+.headerReservasZona {
+	min-width: 7.125rem;
+	justify-content: center;
+}
+
+.headerReservasCantidad {
+	min-width: 7.125rem;
+	justify-content: center;
+}
+
+.headerReservasAcciones {
+	min-width: 6.431rem;
+	padding: 0.25rem 0rem;
+	margin-left: 0.25rem;
+}
+
+.headerReservasRenglon {
+	display: flex;
+	flex-direction: row;
+	margin-left: 0.5rem;
+	font-weight: 700;
+}

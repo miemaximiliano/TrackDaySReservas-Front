@@ -1,0 +1,96 @@
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #ffffff;
+}
+
+.logo {
+    display: flex;
+    max-width: 120px;
+    max-height: 70px;
+    margin-left: 1.5rem;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    gap: 30px;
+    list-style-type: none;
+    font-family: 'Arial', sans-serif;
+}
+
+ul li {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.btnUsuario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+    background-color: #ffc400;
+    margin-right: 2rem;
+    transition: background-color 0.3s, transform 0.3s;
+    
+
+}
+
+.btnUsuario:hover {
+    cursor: pointer;
+    background-color: #ffc400;
+    transform: scale(1.1);
+}
+
+.btnSedes {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    color: #ffffffde;
+    border: 0px solid;
+    background-color: transparent;
+}
+
+
+.imgUsuario {
+    width: 55px;
+    height: 55px;
+    padding-top: 0;
+}
+
+.usuario {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.options {
+    background-color: #ffc400;
+    border-radius: 4px;
+}
+
+.usuarioDropDown, .sedesDropDown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 0.5rem;
+    border: 1px solid #ffffff;
+    position: absolute;
+    background-color: #222222;
+    padding: 0.5rem;
+    border-radius: 4px;
+}

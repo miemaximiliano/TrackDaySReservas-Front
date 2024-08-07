@@ -1,0 +1,19 @@
+.MiCuenta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; 
+}
+
+.MiCuenta h1 {
+  border-bottom: 2px solid #c39300; 
+  padding-bottom: 10px; 
+  text-align: center; 
+}
+
+.MiCuenta div {
+  margin-bottom: 20px; 
+}
+
+
+  

@@ -1,0 +1,19 @@
+.Nosotros {
+    width: 100%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+p{
+    width: 60%;
+    text-align: justify;
+}
+
+.imgNosotros{
+    width: 100%;
+    opacity: 25%;
+    padding-top: 55px;
+}

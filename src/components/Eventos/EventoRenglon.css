@@ -1,0 +1,87 @@
+.renglon {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 0.5rem; /* Añade espacio entre filas */
+  }
+  
+  .renglonNombre,
+  .renglonNumero,
+  .renglonFecha,
+  .renglonHora,
+  .renglonSede,
+  .renglonReservas,
+  .renglonMaxEntradas,
+  .renglonDescripcion {
+	display: flex;
+	align-items: center;
+	padding: 0.5rem; /* Aumenta el padding para mejor legibilidad */
+	border: 1px solid #ffffff; /* Usa píxeles para mayor consistencia */
+	color: #ffffff; /* Asegura que el texto sea visible */
+	border-radius: 5px; /* Añade bordes redondeados */
+	transition: background-color 0.3s ease; /* Añade una transición suave para cambios de color */
+  }
+  
+  .renglonNombre:hover,
+  .renglonNumero:hover,
+  .renglonFecha:hover,
+  .renglonHora:hover,
+  .renglonSede:hover,
+  .renglonReservas:hover,
+  .renglonMaxEntradas:hover,
+  .renglonDescripcion:hover {
+	background-color: #ffc400; /* Cambia el color al pasar el ratón */
+  }
+  
+  .renglonNombre {
+	min-width: 13rem;
+  }
+  
+  .renglonNumero {
+	min-width: 10rem;
+  }
+  
+  .renglonFecha {
+	min-width: 6rem;
+	justify-content: center;
+  }
+  
+  .renglonHora {
+	min-width: 3rem;
+	justify-content: center;
+  }
+  
+  .renglonSede {
+	min-width: 6.313rem;
+	justify-content: center;
+  }
+  
+  .renglonReservas {
+	min-width: 7rem;
+	justify-content: center;
+  }
+  
+  .renglonMaxEntradas {
+	min-width: 7rem;
+	justify-content: center;
+  }
+  
+  .renglonDescripcion {
+	min-width: 25rem;
+	max-width: 25rem;
+	white-space: nowrap; /* Evita que el texto se desborde */
+	overflow: hidden;
+	text-overflow: ellipsis;
+  }
+  
+  .botones {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem; /* Aumenta el espacio entre botones */
+	margin-left: 0.5rem; /* Aumenta el margen izquierdo */
+  }
+  
