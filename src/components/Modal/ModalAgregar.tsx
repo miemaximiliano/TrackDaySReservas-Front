@@ -26,7 +26,7 @@ export default function ModalAgregar(props: propTypes) {
 
 	async function onSubmit(data: TrackSubmitForm) {
 		try {
-			const response = await fetch("http://localhost:3000/eventos", {
+			const response = await fetch("https://track-day-s-reservas-back.vercel.app/eventos", {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
